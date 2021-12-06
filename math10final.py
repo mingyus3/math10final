@@ -180,7 +180,7 @@ st.write("https://docs.streamlit.io/library/api-reference/media/st.image")
 
 from PIL import Image
 meme = st.checkbox("Hit me!")
-image = Image.open('meme.jpg')
+image = Image.open('meme.JPG')
 if meme:
     st.image(image, caption='What it looks like when I type code')
 
